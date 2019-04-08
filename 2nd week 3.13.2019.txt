@@ -1,0 +1,28 @@
+javac HelloWorld.java
+java HelloWorld
+
+java -> null
+c/c++ -> NULL
+
+try int 1.5 is 1 or 2
+
+java -> final int A = 1;
+c/c++ -> const int A = 1;
+
+java -> boolean true and false
+c/c++ -> int 0 or !0 or 1
+
+0xa: 10
+0xb: 11
+0xf:15
+0x14= 16*1 + (16^0)*4 = 20
+
+365L is used for let the computer know it is long type
+
+double a = 10; double b = 0; try a/b
+
+java -> x=input.nextInt(); y=input.nextDouble();
+c/c++ -> scanf("%d",&x); scanf("%f", &y);
+
+concoutenation str_sum=str_x + str_y
+concatenation
