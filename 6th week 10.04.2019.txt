@@ -1,0 +1,18 @@
+be careful
+
+object oriented - using class
+everything should be in a class
+
+create a new class
+and call that class from another class as ClassName.FunctionName();
+
+void means no return
+
+public static + void or int or double... the type of return + functionName(typeOfValue Value)
+
+you can not use another class in one file, to do that only one class must be public
+
+in C $ is not allowed
+
+for C x00 cFF
+does not know how to display some of the characters 
