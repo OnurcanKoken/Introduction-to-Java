@@ -1,0 +1,37 @@
+if you will not write any Constructors, this will be generated anyway:
+Circle() {}
+--------------------------
+Circle c1 = new Circle(5);
+Circle c2 = new Circle(9);
+c1 = c2;
+if I will change c2, c1 will be change too since they point the same location
+--------------------------
+Comparison in Java: Classes
+Circle c;
+c.radius = 1.0; // error: null ref
+c = new Circle; // error: () missing
+c = new Circle(); // OK
+c.radius = 1.0; // OK
+// delete, free: do not exist
+---------------------------
+Array of Objects
+Circle[] circleArray = new Circle[10];
+---------------------------
+Circle C[];
+Circle[] C2;
+C = new Circle[10];
+---------------------------
+// does not allocate elements
+C[0].radius = 1.0; // error: null ref
+C[1].radius = 2.0; // error: null ref
+C[0] = new Circle(1.0); // create a new object
+C[1] = new Circle(2.0);
+C[2] = new Circle();
+C[2].radius = 3.0;
+---------------------------
++setChannel(newChannel: int): void
+public void setChannel int newChannel
+---------------------------
+only one class can be public
+---------------------------
++main(args: String[]): void (with underline) means public
